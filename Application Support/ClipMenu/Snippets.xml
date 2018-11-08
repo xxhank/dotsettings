@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>8A550BE5-D7AF-4D85-B32F-5961753FB6E3</UUID>
+        <nextObjectID>108</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>641</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Folder</key>
+                        <data>
+		dyaIdf7Dnl6RnjbxLOrwYhpS9ygb99tURogw4RNoMm0=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		7EvVQJKk/8Y0+XxKuClbhzEO3MCbxHh4OJAB8XguZ9A=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="FOLDER" id="z102">
+        <attribute name="title" type="string">swift</attribute>
+        <attribute name="index" type="int16">0</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z106 z103 z105 z107 z104"></relationship>
+    </object>
+    <object type="SNIPPET" id="z103">
+        <attribute name="title" type="string">guard wself</attribute>
+        <attribute name="index" type="int16">1</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">guard let wself = self else { return }
+</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z104">
+        <attribute name="title" type="string">update submodule HEAD</attribute>
+        <attribute name="index" type="int16">3</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">update submodule HEAD</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z105">
+        <attribute name="title" type="string">guard self not nil</attribute>
+        <attribute name="index" type="int16">0</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">guard self != nil else { return }</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z106">
+        <attribute name="title" type="string">guard wself return nil</attribute>
+        <attribute name="index" type="int16">2</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">guard let wself = self else { return nil }
+</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z107">
+        <attribute name="title" type="string">[weak self]</attribute>
+        <attribute name="index" type="int16">4</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">[weak self]</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z108">
+        <attribute name="title" type="string">MODULE_POD</attribute>
+        <attribute name="index" type="int16">5</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">#if MODULE_POD
+#endif</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+</database>
