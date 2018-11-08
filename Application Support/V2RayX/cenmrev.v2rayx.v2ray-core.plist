@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>v2rayproject.v2rayx.v2ray-core</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/private/var/folders/66/bhdw94g16cl2sfvdl_sny1wr0000gn/T/AppTranslocation/73BE7C43-F2ED-4D53-94F7-F7D973FF4DF1/d/V2RayX.app/Contents/Resources/v2ray</string>
+		<string>-config</string>
+		<string>http://127.0.0.1:8070/config.json</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
