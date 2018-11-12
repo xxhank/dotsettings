@@ -1,0 +1,50 @@
+{
+	"format": "3.0",
+	"replacements":
+	{
+		"Format Fabric Issues 2.0":
+		{
+			"find": "(.*)\\n(.*)\\n(\\d\\..*)(\\n\\d.*)?\\n(.+)\\n(CRASHES|CRASH)\\n(.+)\\n(USERS|USER)",
+			"name": "Format Fabric Issues 2.0",
+			"replace": "\\1\\t\\2\\t\\3\\t\\5\\t\\7",
+			"greedy": true,
+		},
+		"html5_remove_deprecated_type_attr":
+		{
+			"find": "(?i)(<(style|script)[^>]*)\\stype=(\"|')text/(css|javascript)(\"|')([^>]*>)",
+			"greedy": true,
+			"replace": "\\1\\6"
+		},
+		"non_ascii_chars":
+		{
+			"find": "[[:^ascii:]]+"
+		},
+		"remove_comments":
+		{
+			"find": "([^\\n\\r]+)",
+			"greedy": true,
+			"replace": "",
+			"scope": "comment"
+		},
+		"remove_html_comments":
+		{
+			"find": "<!--[\\s\\S]+?-->",
+			"greedy": true,
+			"replace": "",
+			"scope_filter": ["!comment"]
+		},
+		"remove_json_dangling_commas":
+		{
+			"find": ",([\\r\\n\\s]*)(\\]|\\})",
+			"greedy": true,
+			"replace": "\\1\\2",
+			"scope_filter": ["-string", "-comment"]
+		},
+		"remove_trailing_spaces":
+		{
+			"find": "[ \\t]+$",
+			"greedy": true,
+			"replace": ""
+		}
+	}
+}

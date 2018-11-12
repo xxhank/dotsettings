@@ -1,0 +1,5 @@
+{
+	"uncrustify_executable" : "/Applications/Runy's Plugins Host.app/Contents/PlugIns/Runy's Plugins.appex/Contents/Resources/uncrustify",
+	"uncrustify_config" : "${HOME}/uncrustify.cfg",
+	"uncrustify_popup_unsupport" : false
+}

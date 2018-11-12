@@ -1,0 +1,11 @@
+{
+	"user":
+	{
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
+		"lint_mode": "background",
+		"linters":
+		{
+		},
+		"mark_style": "outline"
+	}
+}

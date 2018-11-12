@@ -1,0 +1,11 @@
+[
+	// Clear all find highlights
+	{
+		"caption": "RegReplace: Format Fabric issues",
+		"command": "reg_replace",
+		"args":
+		{
+			"replacements": ["Format Fabric Issues 2.0"]
+		}
+	},
+]

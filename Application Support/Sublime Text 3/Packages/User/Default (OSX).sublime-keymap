@@ -1,0 +1,85 @@
+[
+  {
+    "keys": [
+      "super+alt+f"
+    ],
+    "command": "show_panel",
+    "args": {
+      "panel": "find",
+      "reverse": false,
+      "close_panel": false
+    }
+  },
+  {
+    "keys": [
+      "super+f"
+    ],
+    "command": "show_panel",
+    "args": {
+      "panel": "replace",
+      "reverse": false,
+      "close_panel": false
+    }
+  },
+  {
+    "keys": [
+      "alt+super+["
+    ],
+    "command": "swap_line_up"
+  },
+  {
+    "keys": [
+      "alt+super+]"
+    ],
+    "command": "swap_line_down"
+  },
+  {
+    "keys": [
+      "alt+u"
+    ],
+    "command": "lua_format",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.lua"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "alt+enter"
+    ],
+    "command": "find_all",
+    "args": {
+      "close_panel": false
+    },
+    "context": [
+      {
+        "key": "panel",
+        "operand": "replace"
+      },
+      {
+        "key": "panel_has_focus"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "ctrl+alt+enter"
+    ],
+    "command": "replace_all",
+    "args": {
+      "close_panel": false
+    },
+    "context": [
+      {
+        "key": "panel",
+        "operand": "replace"
+      },
+      {
+        "key": "panel_has_focus"
+      }
+    ]
+  }
+]
