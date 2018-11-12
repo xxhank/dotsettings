@@ -1,0 +1,21 @@
+<idea-plugin version="2">
+  <id>com.strv.linecounter</id>
+  <name>Line Counter</name>
+  <version>1.3</version>
+  <vendor email="hermann@helu.cz" url="http://www.strv.com">STRV</vendor>
+  <description>
+      Purpose of this plugin is to display list of files and methods that have more lines than user specified.&lt;br&gt;This can be specially useful when you want to refactor your code.
+    </description>
+  <change-notes>
+      Version 1.3 - Saving values&lt;br&gt;
+      Version 1.2 - Later versions support&lt;br&gt;
+      Version 1.1 - updated icons &amp; description&lt;br&gt;
+      Version 1.0 - first version
+    
+    </change-notes>
+  <idea-version since-build="135.1286"/>
+  <depends>com.intellij.modules.all</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="Line Counter" secondary="false" icon="/drawable/icon.png" anchor="right" factoryClass="com.strv.linecounter.toolwindow.MainToolWindow"/>
+  </extensions>
+</idea-plugin>
