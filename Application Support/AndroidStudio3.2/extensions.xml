@@ -2290,19 +2290,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.jql">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.intellij.tasks" />
-              <option name="myPluginName" value="Task Management" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.js">
       <plugins>
         <option name="myPlugins">
@@ -5886,6 +5873,11 @@
         <option name="myPlugins">
           <set>
             <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="SnakeYAML plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -5904,6 +5896,11 @@
         <option name="myPlugins">
           <set>
             <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="SnakeYAML plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -5921,11 +5918,6 @@
       <plugins>
         <option name="myPlugins">
           <set>
-            <plugin>
-              <option name="myPluginId" value="com.intellij.tasks" />
-              <option name="myPluginName" value="Task Management" />
-              <option name="myBundled" value="true" />
-            </plugin>
             <plugin>
               <option name="myPluginId" value="com.github.jk1.ytplugin" />
               <option name="myPluginName" />
@@ -6047,32 +6039,6 @@
               <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key=".gitignore">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="Git4Idea" />
-              <option name="myPluginName" value="Git Integration" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key=".gitmodules">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="Git4Idea" />
-              <option name="myPluginName" value="Git Integration" />
-              <option name="myBundled" value="true" />
             </plugin>
           </set>
         </option>
