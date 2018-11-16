@@ -121,6 +121,63 @@
 		<key>UserDefinedName</key>
 		<string>Wi-Fi</string>
 	</dict>
+	<key>33D4B773-73B7-428E-B078-1C25739B6B96</key>
+	<dict>
+		<key>DNS</key>
+		<dict/>
+		<key>IPv4</key>
+		<dict>
+			<key>ConfigMethod</key>
+			<string>DHCP</string>
+		</dict>
+		<key>IPv6</key>
+		<dict>
+			<key>ConfigMethod</key>
+			<string>Automatic</string>
+		</dict>
+		<key>Interface</key>
+		<dict>
+			<key>DeviceName</key>
+			<string>en4</string>
+			<key>Hardware</key>
+			<string>Ethernet</string>
+			<key>HiddenConfiguration</key>
+			<true/>
+			<key>Type</key>
+			<string>Ethernet</string>
+			<key>UserDefinedName</key>
+			<string>iPhone USB</string>
+		</dict>
+		<key>Proxies</key>
+		<dict>
+			<key>HTTPEnable</key>
+			<integer>0</integer>
+			<key>HTTPPort</key>
+			<integer>1087</integer>
+			<key>HTTPProxy</key>
+			<string>127.0.0.1</string>
+			<key>HTTPSEnable</key>
+			<integer>0</integer>
+			<key>HTTPSPort</key>
+			<integer>1087</integer>
+			<key>HTTPSProxy</key>
+			<string>127.0.0.1</string>
+			<key>ProxyAutoConfigEnable</key>
+			<integer>0</integer>
+			<key>ProxyAutoConfigURLString</key>
+			<string>http://127.0.0.1:8070/proxy.pac</string>
+			<key>SOCKSEnable</key>
+			<integer>0</integer>
+			<key>SOCKSPort</key>
+			<integer>1082</integer>
+			<key>SOCKSProxy</key>
+			<string>127.0.0.1</string>
+		</dict>
+		<key>SMB</key>
+		<dict/>
+		<key>UserDefinedName</key>
+		<string>iPhone</string>
+	</dict>
 	<key>366D2C0E-B5FF-4FD5-BCE3-5ED19F23D7AD</key>
 	<dict>
 		<key>DNS</key>
@@ -367,18 +424,6 @@
 		<dict>
 			<key>FTPPassive</key>
 			<integer>1</integer>
-			<key>HTTPEnable</key>
-			<integer>1</integer>
-			<key>HTTPPort</key>
-			<integer>8888</integer>
-			<key>HTTPProxy</key>
-			<string>127.0.0.1</string>
-			<key>HTTPSEnable</key>
-			<integer>1</integer>
-			<key>HTTPSPort</key>
-			<integer>8888</integer>
-			<key>HTTPSProxy</key>
-			<string>127.0.0.1</string>
 			<key>ProxyAutoConfigEnable</key>
 			<integer>1</integer>
 			<key>ProxyAutoConfigURLString</key>
