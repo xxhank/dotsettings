@@ -1,7 +1,9 @@
 var V2Ray = "SOCKS5 127.0.0.1:1082; SOCKS 127.0.0.1:1082; DIRECT;";
 
 var domains = [
+    "ais96.com",
     "335xs.net",
+    "vimeo.com",
     "apkpure.com",
     "pornhub.com",
     "dl4.303file.com",
