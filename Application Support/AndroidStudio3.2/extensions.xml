@@ -1298,6 +1298,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.dproj">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.siberika.idea.pascal" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.drl">
       <plugins>
         <option name="myPlugins">
@@ -2701,6 +2714,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.sireum.intellij" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.lpi">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.siberika.idea.pascal" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
