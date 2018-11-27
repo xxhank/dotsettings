@@ -2,7 +2,7 @@
 	"always_prompt_for_file_reload": false,
 	"auto_complete_commit_on_tab": false,
 	"auto_complete_cycle": true,
-	"auto_find_in_selection": true,
+	"auto_find_in_selection": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
 	"font_face": "YaHei Consolas Hybrid",
