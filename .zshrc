@@ -27,7 +27,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -49,7 +49,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime ruby autojump osx)
+plugins=(git ruby autojump osx rbenv z)
 
 # User configuration
 
@@ -127,8 +127,8 @@ function xcode_plugin_disable(){
     mv "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins" "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins.tmp"
 }
 
-ssh-add -k "$HOME/.ssh/wangchao9_legitlab"
-ssh-add -K "$HOME/.ssh/id_rsa"
+chmod 400 "$HOME/.ssh/wangchao9_legitlab"; ssh-add -k "$HOME/.ssh/wangchao9_legitlab"
+chmod 400 "$HOME/.ssh/id_rsa"; ssh-add -K "$HOME/.ssh/id_rsa"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/Applications/hack:/Applications/hack/theos/bin/:$PATH"
 export PYTHONPATH=$HOME/cpip/bin
@@ -149,7 +149,6 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 export PYENV_ROOT=/usr/local/var/pyenvexport PATH="/usr/local/opt/qt/bin:$PATH"
 
 export ANDROID_HVPROTO=ddm
-
 export PS4='+{$LINENO:${FUNCNAME[0]}} '
 
 # usfull function
@@ -295,7 +294,7 @@ function proxy_on(){
 }
 
 # Enable proxy settings immediately
-proxy_on
+# proxy_on
 
 # Disable proxy settings
 function proxy_off(){
@@ -312,5 +311,5 @@ function proxy_off(){
    env | grep -e _PROXY -e GIT_ | sort
    echo -e "\\nProxy-related environment variables removed."
 }
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export HISTTIMEFORMAT='%F %T '
