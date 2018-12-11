@@ -340,19 +340,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.asproject">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.aspx">
       <plugins>
         <option name="myPlugins">
@@ -483,19 +470,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.bazelproject">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.beam">
       <plugins>
         <option name="myPlugins">
@@ -535,19 +509,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.blazeproject">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.bnf">
       <plugins>
         <option name="myPlugins">
@@ -572,19 +533,6 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="org.yaoqiang.bpmn.editor.plugin" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.bzl">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -2404,19 +2352,6 @@
               <option name="myPluginId" value="JProfiler" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.jql">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.intellij.tasks" />
-              <option name="myPluginName" value="Task Management" />
-              <option name="myBundled" value="true" />
             </plugin>
           </set>
         </option>
@@ -4838,19 +4773,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.srcjar">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.ss">
       <plugins>
         <option name="myPlugins">
@@ -6103,11 +6025,6 @@
         <option name="myPlugins">
           <set>
             <plugin>
-              <option name="myPluginId" value="com.intellij.tasks" />
-              <option name="myPluginName" value="Task Management" />
-              <option name="myBundled" value="true" />
-            </plugin>
-            <plugin>
               <option name="myPluginId" value="com.github.jk1.ytplugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -6207,6 +6124,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key=".asciidoctorconfig">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.asciidoctor.intellij.asciidoc" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key=".eslintrc">
       <plugins>
         <option name="myPlugins">
@@ -6228,32 +6158,6 @@
               <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key=".gitignore">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="Git4Idea" />
-              <option name="myPluginName" value="Git Integration" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key=".gitmodules">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="Git4Idea" />
-              <option name="myPluginName" value="Git Integration" />
-              <option name="myBundled" value="true" />
             </plugin>
           </set>
         </option>
@@ -6329,19 +6233,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="BUILD">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.google.idea.bazel.aswb" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="Cakefile">
       <plugins>
         <option name="myPlugins">
@@ -6374,6 +6265,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.techern.oxidize" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="Dockerfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
