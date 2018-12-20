@@ -127,8 +127,9 @@ function xcode_plugin_disable(){
     mv "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins" "$HOME/Library/Application Support/Developer/Shared/Xcode/Plug-ins.tmp"
 }
 
-chmod 400 "$HOME/.ssh/wangchao9_legitlab"; ssh-add -k "$HOME/.ssh/wangchao9_legitlab"
-chmod 400 "$HOME/.ssh/id_rsa"; ssh-add -K "$HOME/.ssh/id_rsa"
+#ssh-add -k "$HOME/.ssh/wangchao9_legitlab"
+#ssh-add -K "$HOME/.ssh/id_rsa"
+find $HOME/.ssh -type f | grep -v ".pub" | grep -v "known_hosts"  | xargs -n1 -I{} ssh-add -k {}
 
 export PATH="/usr/local/bin:/usr/local/sbin:/Applications/hack:/Applications/hack/theos/bin/:$PATH"
 export PYTHONPATH=$HOME/cpip/bin
