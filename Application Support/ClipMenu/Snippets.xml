@@ -1,16 +1,16 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0"?>
 <!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
 
 <database>
     <databaseInfo>
         <version>134481920</version>
         <UUID>8A550BE5-D7AF-4D85-B32F-5961753FB6E3</UUID>
-        <nextObjectID>108</nextObjectID>
+        <nextObjectID>110</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>641</integer>
+                    <integer>851</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Folder</key>
@@ -34,7 +34,7 @@
         <attribute name="title" type="string">swift</attribute>
         <attribute name="index" type="int16">0</attribute>
         <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z106 z103 z105 z107 z104"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z104 z108 z105 z103 z106 z107"></relationship>
     </object>
     <object type="SNIPPET" id="z103">
         <attribute name="title" type="string">guard wself</attribute>
@@ -80,5 +80,18 @@
         <attribute name="content" type="string">#if MODULE_POD
 #endif</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="FOLDER" id="z109">
+        <attribute name="title" type="string">android</attribute>
+        <attribute name="index" type="int16">1</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="SNIPPET" id="z110">
+        <attribute name="title" type="string">@Override</attribute>
+        <attribute name="index" type="int16">0</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">@Override</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
     </object>
 </database>
