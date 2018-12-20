@@ -1,7 +1,20 @@
 var V2Ray = "SOCKS5 127.0.0.1:1082; SOCKS 127.0.0.1:1082; DIRECT;";
 
 var domains = [
-	"ooxxtube.com",
+    "nutaku.net",
+    "hsese8.tk",
+    "ty2777.com",
+    "hjd2048.com",
+    "bdsmlr.com",
+    // "oloadcdn.net",
+    "h-local.org",
+    "jkforum.net",
+    "apkaward.com",
+    "imagefap.com",
+    "japanesebeauties.net",
+    "createspace.com",
+    "imagefapusercontent.com",
+    "discordapp.com",
     "tubetubetube.com",
     "ais96.com",
     "335xs.net",
