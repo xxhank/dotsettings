@@ -242,6 +242,24 @@ function history_grep(){
     fi
 }
 
+function mkdir_for_package(){
+  if [[ -z $1 ]]; then
+    echo "mkdir_for_package package"
+    return
+  fi
+  declare -r script_path="$1"
+  declare -r script_dir="${script_path%/*}"
+  declare -r script_file="${script_path##*/}"
+  x=$(echo "$script_file" | sed 's@\.@/@g') 
+  if [[ "$script_dir" == "$script_path"  ]]; then
+    echo will mkdir -p "$x"
+    mkdir -p "$x"
+  else
+    echo will mkdir -p "$script_dir/$x"
+    mkdir -p "$script_dir/$x"
+  fi
+}
+
 alias clean="clear && printf '\\e[3J'"
 alias cl=clean
 alias cr=clear
