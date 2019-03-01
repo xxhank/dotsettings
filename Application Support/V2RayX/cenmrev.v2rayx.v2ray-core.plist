@@ -6,7 +6,7 @@
 	<string>v2rayproject.v2rayx.v2ray-core</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/private/var/folders/66/bhdw94g16cl2sfvdl_sny1wr0000gn/T/AppTranslocation/9683C50B-A1BD-4C27-BEEA-78EC115C1441/d/V2RayX.app/Contents/Resources/v2ray</string>
+		<string>/Applications/V2RayX.app/Contents/Resources/v2ray</string>
 		<string>-config</string>
 		<string>http://127.0.0.1:8070/config.json</string>
 	</array>
