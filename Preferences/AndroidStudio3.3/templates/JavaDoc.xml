@@ -1,0 +1,22 @@
+<templateSet group="JavaDoc">
+  <template name="comment-class" value="/**&#10; * $descirption$&#10; * &#10; * @author $author$&#10; * @version 1.0&#10; * @throws $exceptionName$ $exceptionReason$&#10; * @see&#10; * @since&#10; * &lt;pre&gt;&#10; * &lt;/pre&gt;&#10; */" description="javadoc for class or interface" toReformat="false" toShortenFQNames="true">
+    <variable name="descirption" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="author" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="exceptionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exceptionReason" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="comment-method" value="/**&#10; * $descirption$&#10; * &#10; * @param $paramName$ $paramDescription$&#10; * @return&#10; * @throws $exceptionName$ $exceptionReason$&#10; * @see&#10; * @since&#10; * &lt;pre&gt;&#10; * &lt;/pre&gt;&#10; */" description="javadoc for method" toReformat="false" toShortenFQNames="true">
+    <variable name="descirption" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="paramName" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="paramDescription" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exceptionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exceptionReason" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

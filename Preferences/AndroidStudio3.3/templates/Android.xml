@@ -1,0 +1,8 @@
+<templateSet group="Android">
+  <template name="toast" value="Toast.makeText(this, &quot;$END$&quot;, Toast.LENGTH_SHORT).show();" description="Create a new Toast for Text" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

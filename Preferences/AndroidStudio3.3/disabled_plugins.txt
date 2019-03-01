@@ -1,0 +1,21 @@
+FindBugs-IDEA
+Gradle View
+GradleDependenciesHelper
+Key Promoter X
+Statistic
+Subversion
+com.android.tools.games
+com.drakklord.gradle.metric.checkstyle
+com.drakklord.gradle.metric.core
+com.drakklord.gradle.metric.pmd
+com.eastwood.tools.idea.repo
+com.exynap.plugin
+com.hxsmart.zhangbh.JNIVAR2C.id
+com.strv.linecounter
+de.espend.idea.android
+net.vektah.codeglance
+org.jetbrains.idea.maven
+org.jetbrains.java.decompiler
+org.jf.smalidea
+org.yxdroid.plugin.yxdroidtools
+tv.twelvetone.gradle.plugin.navigation
