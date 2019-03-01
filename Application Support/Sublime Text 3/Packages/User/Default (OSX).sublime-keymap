@@ -81,5 +81,10 @@
         "key": "panel_has_focus"
       }
     ]
-  }
+  },
+  { "keys": ["super+left"], "command": "jump_back" },
+  { "keys": ["super+right]"], "command": "jump_forward" },
+  { "keys": ["super+]"], "command": "indent" },
+  { "keys": ["super+["], "command": "unindent" },
+
 ]

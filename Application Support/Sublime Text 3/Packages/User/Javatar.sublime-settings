@@ -1,0 +1,24 @@
+{
+	"jdk_version":
+	{
+		"JDK11.0.1":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/bin",
+			"version": "11.0.1"
+		},
+		"use": ""
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/wangchao9/projects/game/jx"
+				}
+			]
+		}
+	}
+}

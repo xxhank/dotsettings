@@ -1,0 +1,1 @@
+{"version": "2.0.0", "platforms": ["*"], "url": "http://omnisharp-sublime.readthedocs.org/en/latest/", "sublime_text": ">=3000", "dependencies": [], "description": "C# IDE Plugin for Sublime Text 3"}

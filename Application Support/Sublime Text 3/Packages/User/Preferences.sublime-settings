@@ -6,8 +6,12 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Boxy Solarized Dark (Flake8Lint).tmTheme",
 	"font_face": "YaHei Consolas Hybrid",
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_active"

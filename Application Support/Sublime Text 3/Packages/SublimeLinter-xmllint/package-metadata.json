@@ -1,0 +1,1 @@
+{"dependencies": [], "url": "https://github.com/SublimeLinter/SublimeLinter-xmllint", "version": "1.0.10", "sublime_text": ">=3000", "platforms": ["*"], "description": "SublimeLinter 3 plugin for XML, using xmllint."}
