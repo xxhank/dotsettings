@@ -4,6 +4,7 @@
 	"https_proxy": "http://127.0.0.1:1087",
 	"in_process_packages":
 	[
+		"SublimeLinter-lua"
 	],
 	"installed_packages":
 	[
@@ -21,6 +22,7 @@
 		"ConvertToUTF8",
 		"DocBlockr",
 		"EclipseJavaFormatter",
+		"Exalt",
 		"Extract Sublime Package",
 		"GBK Support",
 		"GoDebug",
@@ -36,7 +38,6 @@
 		"Lua Dev",
 		"LuaComplete",
 		"LuaExtended",
-		"LuaFormat",
 		"Markdown Extended",
 		"MarkdownEditing",
 		"MarkdownHighlighting",

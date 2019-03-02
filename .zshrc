@@ -260,6 +260,10 @@ function mkdir_for_package(){
   fi
 }
 
+function find-package(){
+   find "$HOME/.gradle/caches/modules"*"/files"*  -type d -name "*$1*"
+}
+
 alias clean="clear && printf '\\e[3J'"
 alias cl=clean
 alias cr=clear
@@ -317,18 +321,24 @@ function proxy_on(){
 
 # Disable proxy settings
 function proxy_off(){
-   variables=( \
+  variables=( \
       "http_proxy" "https_proxy" "ftp_proxy" "socks_proxy" \
       "no_proxy" "GIT_CURL_VERBOSE" "GIT_SSL_NO_VERIFY" \
-   )
+  )
 
-   for i in "${variables[@]}"
-   do
+  for i in "${variables[@]}"
+  do
       unset "$i"
-   done
-
-   env | grep -e _PROXY -e GIT_ | sort
-   echo -e "\\nProxy-related environment variables removed."
+  done
+    
+  git config --global -l
+  git config --global --unset http.proxy
+  git config --global --unset https.proxy
+  git config --global --unset core.gitproxy
+  
+  env | grep -e _PROXY -e GIT_ | sort
+  echo -e "\\nProxy-related environment variables removed."
 }
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

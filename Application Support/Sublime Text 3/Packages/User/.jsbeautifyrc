@@ -7,7 +7,7 @@
 		"package?(-lock).json": {
 			"indent_size": 4,
 			"brace_style": "collapse"
-		},
+		}
 	},
 	"js": {
 		// Rules added here apply only to JS files. They take precedence over all
@@ -24,5 +24,9 @@
 		// You can add other .jsbeautifyrc rules in this section too.
 		// [collapse|collapse-preserve-inline|expand|end-expand|none] Put braces on the same line as control statements (default), or put braces on own line (Allman / ANSI style), or put end braces on own line, or attempt to keep them where they are
 		"brace_style": "collapse-preserve-inline"
+	},
+	"css": {
+		// Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
+		"selector_separator_newline": false
 	}
 }

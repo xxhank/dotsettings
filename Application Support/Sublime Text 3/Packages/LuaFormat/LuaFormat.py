@@ -26,20 +26,15 @@ def get_settings():
 
 class LuaFormatCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        print("29")
         # check whether the lua files
         suffix_setting = self.view.settings().get('syntax')
         file_suffix = suffix_setting.split('.')[0]
-        file_suffix_lower = file_suffix.lower()
-        print(file_suffix_lower)
-
-        if not file_suffix_lower.endswith("/lua") and not file_suffix_lower.endswith("/luaextended"):
-          return
+        if file_suffix[-3:].lower() != 'lua': return
 
         # get lines of replacement
         r = sublime.Region(0, self.view.size())
         self.view.unfold(r)
-
+        
         # get characters of view
         lines = []
         for region in self.view.lines(r):
