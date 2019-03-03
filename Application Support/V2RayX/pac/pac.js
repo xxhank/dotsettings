@@ -1,6 +1,9 @@
 var V2Ray = "SOCKS5 127.0.0.1:1082; SOCKS 127.0.0.1:1082; DIRECT;";
 
 var domains = [
+    "awacg11.com",
+    "blog.xuite.net",
+    "xuite.net",
     "renpy.org",
     "googlesource.com",
     "pximg.net",
